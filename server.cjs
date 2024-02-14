@@ -118,7 +118,7 @@ app.delete('/delete-restaurant-detail/:id', async function(request, response) {
                 "status" : "success",
                 "message" : "deleted successfully"
             })
-        } else { //restaurant : null
+        } else { 
             response.status(404).json({
                 "status" : "failure",
                 "message" : "entry not found"
