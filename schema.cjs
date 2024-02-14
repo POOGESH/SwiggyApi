@@ -13,6 +13,9 @@ const restaurantsSchema=new mongoose.Schema({
     cuisines:{  
         type:Array
     },
+    image:{
+        type:String
+    },
     name:{
         type:String
     }
